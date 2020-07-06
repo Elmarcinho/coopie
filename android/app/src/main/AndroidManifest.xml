@@ -26,8 +26,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-            <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyB1ECzn07_1548hOBPccMjJmrRvGCYrK-k"/>
+            
         <receiver android:name="com.intivoto.geofence.GeofenceBroadcastReceiver"
             android:enabled="true" android:exported="true"/>
         <service android:name="com.intivoto.geofence.GeofencePlugin"
